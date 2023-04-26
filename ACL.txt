@@ -1,0 +1,11 @@
+Access controll list
+-užívá se na Routeru
+- slouží k omezení propojení konkrétních sítí
+-bud omezuje při příchodu nebo odchodu
+
+R(config)# 
+access-list 10 permit ip wildcard mask
+
+lepsi varianta
+access-list <id> permit host 192.168.10.10
+access-list 11 permit any
